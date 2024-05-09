@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DeletecustomerFragment">
+
+    <TextView
+        android:id="@+id/name_title"
+        android:layout_width="375dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Delete Customer"
+        android:textColor="@color/favoriteCarBackgroundColor"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_EnterEmail"
+        android:layout_width="374dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="#6BB6F4"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listViewCustomers"
+        android:layout_width="wrap_content"
+        android:layout_height="574dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_DeleteCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:backgroundTint="#6BB6F4"
+        android:text="Delete Customers"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

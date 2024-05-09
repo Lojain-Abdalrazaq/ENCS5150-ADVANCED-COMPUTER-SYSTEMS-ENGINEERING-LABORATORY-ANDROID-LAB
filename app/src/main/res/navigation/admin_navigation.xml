@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation"
+    app:startDestination="@+id/nav_deletecustomer">
+
+
+    <fragment
+        android:id="@+id/nav_deletecustomer"
+        android:label="Delete Customer"
+        android:name="com.example.courseprojectdraft_24.DeletecustomerFragment"
+        tools:layout="@layout/fragment_deletecustomer" />
+
+    <fragment
+        android:id="@+id/nav_addadmin"
+        android:label="Add Admin"
+        android:name="com.example.courseprojectdraft_24.AddadminFragment"
+        tools:layout="@layout/fragment_addadmin" />
+
+    <fragment
+        android:id="@+id/nav_viewallreserves"
+        android:label="View All Reserves"
+        android:name="com.example.courseprojectdraft_24.ViewallreservesFragment"
+        tools:layout="@layout/fragment_viewallreserves" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:label="Logout"
+        android:name="com.example.courseprojectdraft_24.LogoutFragment"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>

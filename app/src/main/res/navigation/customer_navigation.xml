@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customer_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.courseprojectdraft_24.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_carmenu"
+        android:name="com.example.courseprojectdraft_24.CarmenuFragment"
+        android:label="Car Menu"
+        tools:layout="@layout/fragment_carmenu" />
+
+    <fragment
+        android:id="@+id/nav_reservation"
+        android:name="com.example.courseprojectdraft_24.ReservationFragment"
+        android:label="Reservation"
+        tools:layout="@layout/fragment_reservation" />
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.courseprojectdraft_24.FavouriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favourite" />
+
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.example.courseprojectdraft_24.OffersFragment"
+        android:label="Offers"
+        tools:layout="@layout/fragment_offers" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.courseprojectdraft_24.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_callus"
+        android:name="com.example.courseprojectdraft_24.CallUsFragment"
+        android:label="Call Us"
+        tools:layout="@layout/fragment_call_us" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.courseprojectdraft_24.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>

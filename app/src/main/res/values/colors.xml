@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="basic">#B99C27B0</color>
+    <color name="material_dynamic_primary70">#RRGGBBAA</color>
+    <color name="favoriteCarBackgroundColor">#03A9F4</color>
+    <color name="dark_blue">#0F2C59</color>
+</resources>

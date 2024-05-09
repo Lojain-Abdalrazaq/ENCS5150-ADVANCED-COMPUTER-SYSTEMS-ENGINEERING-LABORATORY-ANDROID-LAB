@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.CourseProjectDraft_24" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+    <style name="Theme.CourseProjectDraft_24" parent="Base.Theme.CourseProjectDraft_24" />
+    <style name="Theme.CourseProjectDraft_24.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CourseProjectDraft_24.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.CourseProjectDraft_24.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
